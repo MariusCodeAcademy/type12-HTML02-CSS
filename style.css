@@ -12,3 +12,26 @@ h1 {
   text-transform: uppercase;
   color: blue;
 }
+
+.block-title {
+  /* border-width: 3px;
+  border-style: solid;
+  border-color: blueviolet; */
+  /* border-left: 3px solid blueviolet;
+  border-bottom: 3px solid blueviolet; */
+  border: 3px solid blueviolet;
+  /* apvado kampu uzapvalinimas */
+  border-radius: 10px;
+}
+
+.art-title {
+  border: 1px solid tomato;
+  /* display: inline-block; */
+  display: inline;
+}
+.art-text {
+  border: 1px solid blueviolet
+}
+.art-span {
+  border: 1px solid saddlebrown;
+}
