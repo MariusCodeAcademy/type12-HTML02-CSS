@@ -1,11 +1,17 @@
 /* nusitaikem {
       pavadinimas: reikme
     } */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
   font-weight: normal;
   font-size: 100px;
   font-size: 50px;
   color: tomato !important;
+  /* paraste - atstumpi viena elementa nuo kito */
+  margin-top: 0;
 }
 
 .subtitle {
@@ -22,15 +28,21 @@ h1 {
   border: 3px solid blueviolet;
   /* apvado kampu uzapvalinimas */
   border-radius: 10px;
+  padding-top: 15px;
 }
 
 .art-title {
   border: 1px solid tomato;
-  /* display: inline-block; */
-  display: inline;
+  /* inline-block - blokas kuris neuzima viso ploto  */
+  display: inline-block;
+  /* inline - tai kaip teksto raide */
+  /* display: inline; */
+  width: 25%;
 }
 .art-text {
-  border: 1px solid blueviolet
+  border: 1px solid blueviolet;
+  width: 25%;
+  display: inline;
 }
 .art-span {
   border: 1px solid saddlebrown;
