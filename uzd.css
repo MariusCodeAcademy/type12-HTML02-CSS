@@ -65,3 +65,43 @@ img {
   width: 30%;
   vertical-align: middle;
 }
+
+/* CTA - call to action  =============================== */
+
+.cta {
+  background-color: gray;
+  color: white;
+  font-weight: normal;
+/* padding: xx => uzdedam is visu 4 pusiu */
+  padding: 50px; 
+/* padding: xx yy => */
+/* xx uzdedam is virsaus ir apacios */
+/* yy => is kaires ir desines */
+  padding: 50px 100px; 
+/* padding: xx yy bb => */
+/* xx uzdedam is virsaus */
+/* yy => is kaires ir desines */
+/* bb => is apacios */
+  padding: 50px 100px 10px; 
+ 
+/* padding: xx yy bb zz => */
+/* xx uzdedam is virsaus */
+/* yy => is desines */
+/* bb => is apacios */
+/* zz => is kaires */
+  padding: 50px 100px 10px 200px; 
+
+  padding: 50px 0; 
+  
+}
+
+.cta-h {
+  height: 200px;
+  background-color: gray;
+  color: white;
+}
+
+.cta-title {
+  font-weight: normal;
+  text-align: center;
+}
